@@ -1,0 +1,2 @@
+
+            while ((stackElement = pop()) != '(')
