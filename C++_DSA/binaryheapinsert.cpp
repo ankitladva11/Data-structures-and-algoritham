@@ -29,7 +29,7 @@ struct minheap
         arr[size - 1];
         for (int i = size - 1; i != 0 && arr[parent(i)] > arr[i])
         {
-            swap(arr[i],arr[parent(i)];
+            swap(arr[i],arr[parent(i)]);
             i=parent(i);
         }
     }
